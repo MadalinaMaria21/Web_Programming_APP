@@ -1,0 +1,123 @@
+<corp onload="afiseazaSectiunea1()" >
+    <aside>
+        <span>Meniu:</span>
+        <a href="#sect1">
+            <h3>Secțiunea1</h3>
+        </a>
+        <a href="#sect2">
+            <h3>Secțiunea2</h3>
+        </a> 
+        <a href="#sect3">
+            <h3>Secțiunea3</h3>
+        </a> 
+    </aside>
+    <div>
+        <section id="sect1">
+            <h2>Secțiunea 1</h2>
+            <p><b>Data: </b></p>
+            <p id="data">
+                <button onclick="setInterval(data, 2000)">Afișare data</button>
+            </p>
+            <p><b>URL: </b></p>
+            <p id="url">
+                <button onclick="url()">URL</button>
+            </p>
+            <p><b>Locatie: </b></p>
+            <p id="locatie">
+                <button onclick="getLocation()">Locație</button>
+            </p>
+            <p><b>Versiune: </b></p>
+            <p id="versiune">
+                <button onclick="versiuneBrowser()">Versiune</button>
+            </p>
+
+            <p><b>Sistem de operare: </b></p>
+            <p id="sistem">
+                <button onclick="SistemOperare()">Sistem de operare</button>
+            </p>
+        </section>
+        <section id="sect2">
+            <h2>Secțiunea 2</h2>
+            <canvas onclick="afiseazaSectiunea2(event)" id="canvas" height="300" width="500" style="border:1px solid #000000;"></canvas>
+            <br>
+            <label for="contur">Culoare contur</label>
+            <input type="color" id="contur" value="#e66465"><br><br>
+            <label for="umplere">Culoarea de umplere</label>
+            <input type="color" id="umplere" value="#f6b73c"><br> <br> 
+        </section>
+        <section id="sect3">
+            <h2>Secțiunea 3</h2>
+            <table id="myTable">
+                <tr>
+                    <td> Index </td>
+                    <td> Varsta </td>
+                    <td> Numar de mese </td>
+                    <td> Greutate optima </td>
+                </tr>
+                <tr>
+                    <td> 0 </td>
+                    <td> 3 luni </td>
+                    <td> 7 </td>
+                    <td> 3,4 </td>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> 6 luni </td>
+                    <td> 6 </td>
+                    <td> 3,4 </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> 12 luni </td>
+                    <td> 5 </td>
+                    <td> 10 </td>
+                </tr>
+                <tr>
+                    <td> 3 </td>
+                    <td> 18 luni </td>
+                    <td> 5 </td>
+                    <td> 14 </td>
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td> 24 luni </td>
+                    <td> 5 </td>
+                    <td> 17 </td>
+                </tr>
+                <tr>
+                    <td> 5 </td>
+                    <td> 30 luni </td>
+                    <td> 5 </td>
+                    <td> 19 </td>
+                </tr>
+                <tr>
+                    <td> 6 </td>
+                    <td> 3 luni </td>
+                    <td> 5 </td>
+                    <td> 19 </td>
+                </tr>
+                
+            </table>
+            <br> <br>
+            <form class="addForm" action="#myTable" onsubmit="return false;">
+                <label> Alege culoarea randului separator:</label>
+                <input id="adaugaCuloare" type="color"> 
+                <br> <br>
+
+                <label> Introdu linia: </label>
+                <input id="adaugaLinie" type="text">
+                <input type="submit" value="Trimite" onclick="addRow()">
+                <br> <br>
+    
+                <label> Introdu coloana: </label>
+                <input id="adaugaColoana" type="text">
+                <input type="submit" value="Trimite" onclick="appendColumn()">
+                <br> <br> 
+            </form>
+
+        </section>
+    </div>
+</corp>
+
+
+

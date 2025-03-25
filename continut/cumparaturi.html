@@ -1,0 +1,32 @@
+<h2>Listă de Cumpărături</h2>
+
+<h2>↓↓↓</h2>
+<br>
+<div id="cumparaturi_continut">
+    <label for="nume">Nume produs:</label>
+    <input type="text" id="nume" >
+    <label for="cantitate">Cantitate:</label>
+    <input type="number" id="cantitate" >
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <button type="button" onclick="adaugaProdus()">Adaugă</button>
+</div>
+<br>
+<br>
+<select id="storageSelect">
+    <option value="localStorage">LocalStorage</option>
+    <option value="indexedDB">IndexedDB</option>
+</select>
+<br>
+<br>
+<table id="tabel_cumparaturi">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nume Produs</th>
+                <th>Cantitate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aici vom adăuga dinamic elementele din JS -->
+        </tbody>
+</table>

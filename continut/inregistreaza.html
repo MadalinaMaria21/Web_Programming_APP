@@ -1,0 +1,82 @@
+<br><br>
+<div id="text_inregistreaza">
+    <b>
+        Dacă vrei să ai o experiență cât mai placută în bucatărie 
+        alături de micuțul tău, nu înceta să ne urmarești zi de zi activitatea. <br>
+        Vrei să știi cum să transformi un copil mofturos într-un mic gourmet?<br><br>
+        Dacă <i>DA</i>, atunci completează formularul următor:
+    </b>
+</div>
+<br>
+<div  class="formular_inregistrare">
+    <fieldset id="fieldset1">
+        <legend>Informații generale:</legend>
+        <label>Nume utilizator:</label>
+        <input type="text" placeholder="nume_utilizator" id="numeUtil" onkeyup ="activareButon()"><br><br>
+        <label>Nume:</label>
+        <input type="text" placeholder="nume" ><br><br>
+        <label>Prenume:</label>
+        <input type="text" placeholder="prenume"><br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="email"><br><br>
+        <label>Telefon:</label>
+        <input type="tel" id="phone" placeholder="07-- --- ---" pattern="[0]{1}-[7]{1}[0-9]{2}-[0-9]{3}-[0-9]{3}" required><br><br>
+        <label>Parola:</label>
+        <input type="password" value="aaa" id="parolaUtil" onkeyup="activareButon()"><br><br>
+    </fieldset>
+
+    <fieldset id="fieldset2">
+        <legend>Informații personale:</legend>
+        <label for="color"> Care este culoarea preferata a copilului?:</label>
+            <input type="color" id="color" name="color"><br><br>
+        
+        <label>Care este sexul copilului tău?</label>
+            <select>
+                <option>feminin</option>
+                <option>masculin</option>
+            </select><br><br>
+        <label>Data nașterii:</label>
+        <input type="date"><br><br>
+        <label>Ora nașterii:</label>
+        <input type="time"><br><br>
+        <label>Vârstă:</label>
+        <input type="range"><br><br>
+        <label>Adresa paginii personale:</label>
+        <input type="url"><br><br>
+    <label>Ce acceptă copilul tău cu ușurință?</label>
+    <select>
+        <option>legume</option>
+        <option>fructe</option>
+        <option>niciuna</option>
+    </select><br><br>
+    <label>Care e mancarea lui preferata?</label>
+    <select>
+        <option>Pizza</option>
+        <option>Paste</option>
+        <option>Prăjituri</option>
+        <option>Fursecuri</option>
+        <option>Rădăcinoase</option>
+        <option>Crispy</option>
+        <option>Șnițele</option>
+        <option>Omletă</option>
+        <option>Mezeluri</option>
+        <option>Clătite</option>
+        <option>Lapte cu cereale</option>
+        <option>Piure</option>
+        <option>Cartofi prăjiți</option>
+        <option>Fructe</option>
+    </select>
+    <br>
+    <label>Descriere a comportamentului din timpul meselor:</label>
+    <textarea cols="35" rows="6"></textarea><br>
+    </fieldset>
+    <input type="checkbox" id="agree" onchange="activareButon()">
+    <label> Sunt de acord cu temenii și condițiile.</label>
+    <p><input type="submit" value="Mă înregistrez!" id="submit_button" onclick="salveazaUtilizator()" disabled></p>
+</div>
+
+
+
+
+
+

@@ -1,0 +1,303 @@
+body {
+    margin: 0px;
+    background-color: mistyrose;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    color: rgb(250, 213, 230);
+    text-align: center;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 20px rgb(221, 122, 188), 0 0 25px rgb(255, 113, 168), 0 0 5px rgb(220, 5, 105);
+  }
+  main{
+    flex:1;
+  }
+h2{
+
+    color:deeppink;
+    text-align: center;
+    font-size: 28px;
+}
+head{
+    position:fixed;
+    margin-top:0%;
+}
+nav {
+    width:100%;
+    height: 50px;
+    background-color: pink;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;;
+    flex-grow: 0;
+    
+}
+nav a{
+    text-decoration: none;
+    color:grey;
+    margin: 20px 20px;
+    font-size: 20px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+nav a::before{
+    width:30px;
+    height: 30px;;
+    content:"♥";
+    margin-right: 10px;
+    color: rgb(255, 21, 130);
+    font-size: 30px;
+}
+  
+@keyframes example {
+    from {left: 0%;}
+    to {left: 20%;}
+  }
+
+a:hover {
+    color: rgb(160,34,110);
+    font-size: 26px;
+  } 
+
+.header_design #logo_design
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header_design #logo_design h2{
+    font-size: 28px;
+}
+div p.text_incipient
+{
+    text-indent: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(100,100,100);
+}
+div.continutm
+{
+    text-align: center;
+}
+.formular_inregistrare
+{
+    margin-left:20%;
+    margin-right:20%;
+}
+div.continutm table{
+    align-items: center;
+    margin: auto;
+}
+#lista_ordonata
+{
+    border:5px;
+    border-style: dashed;
+    border-color: pink;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+div.formular_despre{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+#verifica_continut
+{
+    border: 1px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(177, 245, 231), rgb(184, 254, 188),rgb(249, 249, 103));
+    margin:4% 30%;
+}
+footer.subsol{
+    background-color: pink;
+    text-indent: 20px;
+  
+}
+.social-media{
+    text-decoration: none;
+    display: inline-block;
+    color: green;
+    font-size: 24px;
+}
+
+footer.subsol .contact_media
+{
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.contact
+{
+    text-align: center;
+    margin-right: 80px;
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+}
+.media h3{
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+}
+.media
+{
+    text-align: center;
+    margin-left: 80px;
+}
+footer.subsol div.copyright{
+    text-align: center;
+}
+.video_center
+{
+     display: flex;
+     row-gap: 50px;
+     flex-direction: column;
+     align-items: center;
+
+}
+#text_video, #text_acasa, #text_inregistreaza{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: larger;
+    color:rgb(82,80,80);
+}
+.subsol{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+svg{
+   padding-left: 20%;
+}
+
+#fieldset1, #fieldset2{
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(177, 245, 231), rgb(184, 254, 188),rgb(249, 249, 103));
+}
+legend{
+    padding: 3px 3px;
+    border: 1px;
+    border-color:grey;
+    border-style: solid;
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(249, 249, 103),rgb(177, 245, 231));
+}
+.sectiune_sus, .sectiune_jos, .sectiune_mijloc1, #sectiune_mijloc2
+{
+    text-align: center;
+    display: flex;
+    color:grey;
+    font-size: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sectiune_despre, #sectiune_video, #sectiune_inregistreaza, #sectiune_desen, 
+#sectiune_cumparaturi, #sectiune_persoane, #sectiune_verifica,#sectiune_invat{
+    padding: 1% 2%;
+    margin:15px 40px 15px 40px;
+    border:8px;
+    border-style:inset;
+    background-image: linear-gradient(rgb(245, 151, 210), rgb(250, 250, 250),rgb(239, 209, 239));
+    border-radius: 5px;
+    border-color:palevioletred;
+}
+
+table, td{
+    border:1px;
+    border-style: solid;
+    border-color:black;
+}
+
+@media all and (max-width: 1100px) {
+    nav{
+        height:80px;
+    }
+    #lista_ordonata
+    {
+    border:5px;
+    border-style: dashed;
+    border-color: pink;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+}
+@media all and (max-width:567px)
+{
+    nav{
+        height:120px;
+    }
+}
+aside {
+    border:10px;
+    border-style:dotted;
+    border-color:deeppink;
+    position:fixed;
+    left:0px;
+    top:270px;
+    width: 20%;
+    padding-left:20px;
+    padding-right: 20px;
+    float: left;
+    font-style: italic;
+    background-color:rgb(254, 196, 206);
+  }
+  span{
+    font-size: 18px;
+    color:rgb(128, 128, 128);
+  }
+ aside h3 {
+    text-align: center;
+    color: rgb(129, 129, 129); 
+    ; 
+ } 
+ #tabel_persoane{
+    background-image: linear-gradient(rgb(177, 245, 231), rgb(184, 254, 188),rgb(249, 249, 103));
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    
+ }
+#sect1, #sect2, #sect3
+ {  border-radius: 9px;
+    text-align: center;
+    border:4px;
+    border-color: deeppink;
+    border-style: double;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    margin-left: 30%;
+    background-image: linear-gradient(rgb(254, 196, 206), rgb(255, 255, 255),rgb(254, 196, 206));
+ }
+section #myTable{
+   margin-left:33%;
+    color:rgb(100,100,100);
+
+ }
+ #cumparaturi_continut
+ {
+   text-align: center;
+ }
+#tabel_cumparaturi
+{
+    text-align: center;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    background-color: lightyellow;
+}

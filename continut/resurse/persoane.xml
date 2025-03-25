@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Lacramioarelor</strada>
+            <numarul>10</numarul> 
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0766252309</telefon>
+        <email>popescu.ion@yahoo.com</email>
+        <hobby>pictura</hobby>
+    </persoana>
+    <persoana id="2">
+        <nume>Mihaluca</nume>
+        <prenume>Darius</prenume>
+        <varsta>14</varsta>
+        <adresa>
+            <strada>Lacramioarelor</strada>
+            <numarul>10</numarul> 
+            <localitate>Tamaseni</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0766002309</telefon>
+        <email>darius.darius@yahoo.com</email>
+        <hobby>mersul cu bicicleta</hobby>
+    </persoana>
+    <persoana id="3">
+        <nume>Popa</nume>
+        <prenume>Andrei</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Lalelelor</strada>
+            <numarul>130</numarul> 
+            <localitate>Roman</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0730008309</telefon>
+        <email>popa.andrei@yahoo.com</email>
+        <hobby>trading</hobby>
+    </persoana>
+    <persoana id="4">
+        <nume>Tudor</nume>
+        <prenume>Alex</prenume>
+        <varsta>55</varsta>
+        <adresa>
+            <strada>Tudor vladimirescu</strada>
+            <numarul>230</numarul> 
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0789052309</telefon>
+        <email>tudor.ion@yahoo.com</email>
+        <hobby>alergat</hobby>
+    </persoana>
+    <persoana id="5">
+        <nume>Vladimir</nume>
+        <prenume>Mihai</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Vasile Petrescu</strada>
+            <numarul>67</numarul> 
+            <localitate>Adjudeni</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0785557856</telefon>
+        <email>valdimir.vdm23@yahoo.com</email>
+        <hobby>shopping</hobby>
+    </persoana>
+    <persoana id="5">
+        <nume>Alina</nume>
+        <prenume>Iovite</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Ghioceilor</strada>
+            <numarul>544</numarul> 
+            <localitate>Rachiteni</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0723456213</telefon>
+        <email>alina_iovite@gmail.com</email>
+        <hobby>desen grfic</hobby>
+    </persoana>
+</persoane>

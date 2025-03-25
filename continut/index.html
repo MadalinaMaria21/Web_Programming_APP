@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang = "ro">
+        <head>
+            <title>Acasă</title>
+            <meta charset = "utf-8">
+            <link rel="icon" type="image/x-icon" href="favicon.ico">
+            <link rel="stylesheet" type="text/css" href="CSS/stil.css">
+            <script src="js/script.js" type="text/javascript"></script>
+            <script src="js/cumparaturi.js"></script>
+            
+        </head>
+        <body>
+            <header class="header_design">
+                <h1>Micul Gourmet</h1>
+                <div id="logo_design">
+                    <img   src="imagini/logo.png " width="150" height="115" >
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Bucurie culinară pentru copii!</h2>
+                    <img   src="imagini/logo.png " width="150" height="115" >
+                </div>
+                
+            </header>
+            <nav>
+                <a onclick="schimbaContinut('despre')">Despre</a> 
+                <a onclick="schimbaContinut('acasa')">Acasă</a>
+                <a onclick="schimbaContinut('inregistreaza')">Înregistrează-te</a>
+                <a onclick="schimbaContinut('desen')">Desen</a>
+                <a onclick="schimbaContinut('invat')">Învăț JS</a>
+                <a onclick="schimbaContinut('verifica')">Verifică</a>
+                <a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>
+                <a onclick="schimbaContinut('video')">Video</a>
+                <a onclick="schimbaContinut('cumparaturi', 'js/cumparaturi.js')">Cumparaturi</a>
+            </nav>
+            <br><br>
+            <main id="continut"></main>
+            <footer class="subsol"> 
+                <div class="contact_media">
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        <p>Email: contact@miculgourmet.ro</p>
+                        <p>Telefon: +40 123 456 789</p>
+                    </div>
+                
+                    <div class="media" >
+                        <h3>Urmăriți-ne și pe rețelele sociale ↓</h3>
+                        <a  class="social-media" href="https://www.facebook.com/" target="_blank" >Facebook</a>
+                        <a  class="social-media" href="https://www.instagram.com/" target="_blank" >Instagram</a>
+                        <a  class="social-media" href="https://twitter.com/" target="_blank" >Twitter</a>
+                    </div>
+                </div>   
+                <div class="copyright">
+                    <p>&copy; 2024 Micul Gourmet. Toate drepturile rezervate.</p>
+                </div>
+            </footer>
+        </body>
+    </html>
+
